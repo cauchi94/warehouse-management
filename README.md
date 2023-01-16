@@ -9,6 +9,7 @@ The programme is means to perform all the warehouse operations that are necessar
 The code has one base class, one subclass and three sub-subclasses.  
   
 **Warehouse**: this is the super class which provides the necessary functionality for incrementing a list of inventories with all the attributes in question: type, name, and quantity to be used to generate the report. The class also provides the main functionality to add, remove and get a particular stock, get the total number of items in the warehouse, and generate the inventory report. Variables and functions include:  
+  
 
 • Variables
     - _inventory_: list to increment each stock initialized to the warehouse
