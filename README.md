@@ -1,7 +1,5 @@
 # warehouse_management
 
-This Python script helps manage stock inventory for an audio store. It supports adding, removing, displaying a report on stocks available in the store. The user has the possibility to request the state of the whole inventory or a stock in particular.  
-  
 ## Description
 The programme is means to perform all the warehouse operations that are necessary for the inventory control of items related to hi-fi sound.  
   
