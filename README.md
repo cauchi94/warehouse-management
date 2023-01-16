@@ -1,7 +1,7 @@
 # warehouse_management
 
 ## Description
-The programme is means to perform all the warehouse operations that are necessary for the inventory control of items related to hi-fi sound.  
+The programme is meant to perform all the warehouse operations that are necessary for the inventory control of items related to hi-fi sound.  
   
 ## Technical specifications
 The code has one base class, one subclass and three sub-subclasses.  
