@@ -22,21 +22,21 @@ The code has one base class, one subclass and three sub-subclasses.
     - _inventory_report_: to generate an inventory report of all the stocks in the warehouse  
     -      _total_items_: to get the total number of items across all stocks in the warehouse  
       
-_Stock_: this subclass inherits the functionalities of the Warehouse class and the values of the variables defined in the above class. On top of that, it allows you to initialize a stock, its name, type, and quantity to then be used for the sub-subclasses.  
+**Stock**: this subclass inherits the functionalities of the Warehouse class and the values of the variables defined in the above class. On top of that, it allows you to initialize a stock, its name, type, and quantity to then be used for the sub-subclasses.  
   
-_Speakers, Headphones, Stereos_: these sub-subclasses inherit the functionality of stock, thereby allowing to input the items into the warehouse and concurrently adds the values added to both the inventory list and the n_speakers variable.  
+**Speakers, Headphones, Stereos**: these sub-subclasses inherit the functionality of stock, thereby allowing to input the items into the warehouse and concurrently adds the values added to both the inventory list and the n_speakers variable.  
   
 Same concept was used for Headphones and Stereos sub-subclasses.
 
 ## Architecture
-In the main all the functions described above are used and the following execution model with 3 main functionalities is proposed:
-
-    1. Add new stock name to the list
-    2. Add or remove quantity from current stock in Warehouse
-    3. Search for an item
-    
-All the above will perform the functionalities defined in the classes but will also let the user to generate an inventory report before performing one of the functions above.
-
-For more user friendliness, an interactive interface was created that would allow the user to select one of the three above in a more collaborative way.
-
+In the main all the functions described above are used and the following execution model with 3 main functionalities is proposed:  
+  
+    1. Add new stock name to the list  
+    2. Add or remove quantity from current stock in Warehouse  
+    3. Search for an item  
+      
+All the above will perform the functionalities defined in the classes but will also let the user to generate an inventory report before performing one of the functions above.  
+  
+For more user friendliness, an interactive interface was created that would allow the user to select one of the three above in a more collaborative way.  
+  
 The interface will remain active until the user decides to quit.
